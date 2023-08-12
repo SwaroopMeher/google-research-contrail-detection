@@ -5,6 +5,9 @@ Contrails are clouds of ice crystals that form in aircraft engine exhaust. These
 <br>
 The ICRGW aims to utilize satellite imagery to identify contrails produced by airplanes. It employs segmentation, which involves separating the contrails from the rest of the image using a mask. By solving this segmentation problem, the project can accurately pinpoint the contrails within the satellite images. This work will quantifiably improve the confidence in the prediction of contrail forming regions by the models built by researchers and the techniques to avoid creating them.<br>
 
+![image](https://github.com/SwaroopMeher/google-research-contrail-detection/assets/115743490/8d5fb181-6924-4da8-a852-c130d3172380)
+<br>
+
 ## Success
 The success of this project can be assessed on two factors. Firstly, the development of an ML pipeline that effortlessly generates precise segmentation masks from any input image. 
 Secondly, to model successfully segments ~1800 images, with an impressive dice coefficient of greater than 0.6 on the hidden test set on the Kaggle leaderboard. <br>
